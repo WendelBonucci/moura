@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+@theme inline {
+  /* Background */
+  --color-background: #f2f2f2;
+  --color-surface: #ffffff;
+  --color-surface-secondary: #eaeaea;
+
+  /* Neutral */
+  --color-black: #0f0f0f;
+  --color-white: #ffffff;
+  --color-foreground: #171717;
+  --color-muted: #737373;
+  --color-border: #dedede;
+
+  /* Brand - Green */
+  --color-green: #00ff7f;
+  --color-malachitegreen: #0bda51;
+  --color-neongreen: #66ff00;
+
+  /* Brand - Yellow */
+  --color-yellow: #faca16;
+
+  /* Semantic */
+  --color-primary: #0bda51;
+  --color-primary-foreground: #0f0f0f;
+  --color-accent: #faca16;
+
+  /* Typography */
+  --font-sans: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-height: 100vh;
+    margin: 0;
+    background: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background: var(--color-primary);
+    color: var(--color-primary-foreground);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 3px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
