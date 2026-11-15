@@ -21,7 +21,7 @@ type ItemLink = {
 const links: ItemLink[] = [
     { id: 1, texto: "Início", href: "/", icon: House },
     { id: 2, texto: "Sobre Nós", href: "/about", icon: Info },
-    { id: 3, texto: "Empreendimentos", href: "/empreendimentos", icon: Building2 },
+    { id: 3, texto: "Empreendimentos", href: "/development", icon: Building2 },
     { id: 4, texto: "Blog", href: "/blog", icon: Newspaper },
 ];
 
