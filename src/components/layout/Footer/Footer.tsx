@@ -6,7 +6,8 @@ import type { IconType } from "react-icons";
 import { motion, useReducedMotion } from "motion/react";
 
 import { ArrowUpRight, MapPin, Mail, ArrowUp, } from "lucide-react";
-import { FaInstagram, FaFacebookF, FaLinkedinIn, FaWhatsapp, } from "react-icons/fa6";
+import { FaInstagram, FaFacebookF, FaWhatsapp, } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa";
 
 type FooterLink = {
     id: number;
@@ -38,25 +39,25 @@ const socialLinks: SocialLink[] = [
     {
         id: 1,
         title: "Instagram",
-        href: "https://www.instagram.com/",
+        href: "https://www.instagram.com/moura.urbanismo",
         icon: FaInstagram,
     },
     {
         id: 2,
         title: "Facebook",
-        href: "https://www.facebook.com/",
+        href: "https://www.facebook.com/mouraurbanismo",
         icon: FaFacebookF,
     },
     {
         id: 3,
         title: "LinkedIn",
-        href: "https://www.linkedin.com/",
-        icon: FaLinkedinIn,
+        href: "https://www.youtube.com/@mouraurbanismo",
+        icon: FaYoutube,
     },
     {
         id: 4,
         title: "WhatsApp",
-        href: "https://wa.me/",
+        href: "https://web.whatsapp.com/send?phone=558534675705&text=",
         icon: FaWhatsapp,
     },
 ];
