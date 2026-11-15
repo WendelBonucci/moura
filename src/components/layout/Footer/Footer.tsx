@@ -198,7 +198,7 @@ export default function Footer() {
                 <div className="flex flex-col items-center justify-between gap-5 pt-7 text-center sm:flex-row sm:text-left">
 
                     <p className="text-xs leading-6 text-white/50 sm:text-sm">
-                        Copyright © {new Date().getFullYear()} — Todos os direitos reservados.
+                        Copyright © 2026 — Todos os direitos reservados.
                         <span className="ml-1 font-semibold text-white/80">
                             Moura Urbanismo.
                         </span>
