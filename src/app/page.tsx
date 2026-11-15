@@ -2,7 +2,7 @@ import HomeMain from "@/components/home/HomeMain";
 
 export default function Home() {
   return (
-    <main className="flex flex-col flex-1 items-center justify-center bg-zinc-50">
+    <main className="">
       <HomeMain/>
     </main>
   );
