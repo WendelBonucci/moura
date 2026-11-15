@@ -4,6 +4,7 @@ import "./globals.css";
 
 import Header from "@/components/layout/Header/Header";
 import Footer from "@/components/layout/Footer/Footer";
+import ChatBot from "@/components/layout/ChatBot/ChatBot";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -91,6 +92,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="pt-BR" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
       <Header />
       <body className="min-h-full flex flex-col">{children}</body>
+      <ChatBot />
       <Footer />
     </html>
   );
