@@ -25,10 +25,10 @@ export default function Header() {
     }, []);
 
     return (
-        <header className={`fixed inset-x-0 top-0 z-50 w-full transition-all duration-300 ${scrolled || !isHome
-            ? "bg-white/95 shadow-sm backdrop-blur-md"
-            : "bg-transparent"
-            }`}>
+        <header
+            className={`fixed inset-x-0 top-0 z-50 w-full bg-white/95 backdrop-blur-md transition-all duration-300 ${scrolled ? "shadow-sm" : "border-b border-black/5"
+                }`}
+        >
             <div className="mx-auto flex min-h-16 w-full max-w-7xl items-center gap-4 px-4 sm:min-h-18 sm:px-6 lg:min-h-20 lg:px-8">
                 <div className="flex shrink-0 items-center">
                     <Logo />
