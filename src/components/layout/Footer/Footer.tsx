@@ -22,7 +22,7 @@ type SocialLink = {
     icon: IconType;
 };
 const institutionalLinks: FooterLink[] = [
-    { id: 1, title: "Sobre Nós", href: "/sobre" },
+    { id: 1, title: "Sobre Nós", href: "/about" },
     { id: 2, title: "Empreendimentos", href: "/empreendimentos" },
     { id: 3, title: "Onde nos encontrar", href: "/localizacao" },
     { id: 4, title: "Trabalhe Conosco", href: "/trabalhe-conosco" },
